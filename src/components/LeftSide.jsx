@@ -7,8 +7,7 @@ import { UilLocationPoint } from '@iconscout/react-unicons'
 import { formatToLocalTime } from './services/WeatherService'
 import { iconUrlFromCode } from './services/WeatherService'
 
-import earth from '../assets/earth.gif'
-// import 'font-awesome/css/font-awesome.min.css';
+
 function LeftSide({ weather: {
     dt,
     name,
