@@ -50,11 +50,11 @@ function LeftSide({ weather: {
            })
        }
     }
-
+//w-1/3 
     return (
         <>
 
-            <section className='w-1/3 h-screen bg-[#1E213A]'>
+            <section className='w-1/3 max-md:h-screen  bg-[#1E213A] '>
                 <div className='flex flex-col items-center h-full'>
                     <div className='text-[#88869D] '>
                         <div className='flex flex-row items-center justify-evenly w-full h-12 px-4 mt-4 bg-[#0b043b] rounded-full'>
@@ -77,7 +77,7 @@ function LeftSide({ weather: {
                     </div>
                     <div className='flex flex-col gap-10 items-center justify-evenly pt-20 pb-10'>
                         <div className=''>
-                            <h1 className='text-4xl flex gap-5  font-bold text-[#88869D] '>{name}</h1>
+                            <h1 className='text-3xl flex gap-5  font-bold text-[#88869D] '>{name}</h1>
 
                         </div>
                         <div className=''>

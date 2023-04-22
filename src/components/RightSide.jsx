@@ -48,11 +48,11 @@ function LeftBelow({ weather: {
   }
 
  
-
+//w-full h-screen
 
   return (
     <>
-      <section className=' w-full h-screen'>
+      <section className=' w-screen  h-screen bg-[#100E1D]'>
         <div className=' celFer flex gap-3 justify-end  '>
           <button
             type=""
@@ -67,7 +67,7 @@ function LeftBelow({ weather: {
             className='text-l font-bold text-white round2 transition ease-out hover:scale-125 '
           >°F</button>
         </div>
-        <div className='flex flex-row  justify-first gap-5 pl-[150px] forcast'>
+        <div className='flex flex-row  justify-first gap-5 pl-[120px] forcast'>
           {items.map((item) => (
             <div className='first'>
               <h1>
@@ -89,7 +89,7 @@ function LeftBelow({ weather: {
         <div>
           <h1 className='text-2xl text-[#9986a6] h1 p-2 ml-10 italic'>Today's HighLights...</h1>
         </div>
-        <div className='demo grid-rows-2 gap-3 ml-32 mt-5 '>
+        <div className=' gap-3 ml-[100px]  md:mt-[85px] utils '>
           <div className='container mt-0'>
             <div className='flex flex-col  items-cente box'>
               <div className='flex flex-col  items-center '>

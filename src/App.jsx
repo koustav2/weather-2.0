@@ -49,9 +49,10 @@ function App() {
   }, [query, units])
 
 
+//  mx-auto max-w-screen max-h-screen
 
   return (
-    <main className='flex flex-row  max-w-screen max-h-screen bg-[#100e1d]'>
+    <main className='flex flex-row w-full'>
       {weather &&
         <>
           <LeftSide weather={weather} items={weather.daily} setQuery={setQuery} units={units} setUnits={setUnits} />
