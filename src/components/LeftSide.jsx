@@ -53,9 +53,9 @@ function LeftSide({ weather: {
     return (
         <>
 
-            <section className='w-1/3 max-md:h-screen  bg-[#1E213A] '>
+            <section className='w-1/3 max-md:h-screen   '>
                 <div className='flex flex-col items-center h-full'>
-                    <div className='text-[#88869D] '>
+                    <div className='text-[#97869d] '>
                         <div className='flex flex-row items-center justify-evenly w-full h-12 px-4 mt-4 bg-[#0b043b] rounded-full'>
                             <input className='w-[50%] h-[50%] px-3 text- bg-transparent outline-none '
                                 value={city}
@@ -76,11 +76,11 @@ function LeftSide({ weather: {
                     </div>
                     <div className='flex flex-col gap-10 items-center justify-evenly pt-20 pb-10'>
                         <div className=''>
-                            <h1 className='text-3xl flex gap-5  font-bold text-[#88869D] '>{name}</h1>
+                            <h1 className='text-3xl flex gap-5  font-bold text '>{name}</h1>
 
                         </div>
                         <div className=''>
-                            <h1 className='text-2xl font-bold text-[#88869D]'>
+                            <h1 className='text-2xl font-bold text'>
                                 {country}
                             </h1>
                         </div>
@@ -88,7 +88,7 @@ function LeftSide({ weather: {
                     <div className='flex flex-col gap-10 items-center justify-center '>
 
                         <div>
-                            <span className=' flex text-5xl font-bold text-[#88869D]'>
+                            <span className=' flex text-5xl font-bold text'>
                                 {temp.toFixed()}
                                 <h1 className='text-2xl'>°
                                 {units === 'metric' ? 'C' : 'F'}
@@ -101,7 +101,7 @@ function LeftSide({ weather: {
                             
                             />
                         <div className=''>
-                            <h1 className='text-4xl font-bold text-[#88869D] '>
+                            <h1 className='text-4xl font-bold text '>
                                 {main}
                             </h1>
                         </div>

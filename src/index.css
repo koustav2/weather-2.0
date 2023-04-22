@@ -2,24 +2,28 @@
 @tailwind components;
 @tailwind utilities;
 
-/* *{
-    background-color:#100e1d;
-} */
-* {
-  /* box-sizing: border-box; */
-  /* outline: 1px solid rgb(11, 213, 11) !important ; */
-  padding: 0%;
-  margin: 0%;
+body{
+  background-image: url('https://images.pexels.com/photos/33545/sunrise-phu-quoc-island-ocean.jpg');
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-
 
 .datetime {
   text-align: center;
 }
 
+.text{
+  color: hsl(286, 80%, 15%);
+  font-weight: bold;
+  font-family: "Anonymous Pro", monospace;
+  letter-spacing: 4px;
+}
+
 .h1 {
   position: relative;
-  color: hsl(285, 16%, 54%);
+  color: hsl(286, 80%, 15%);
   font-weight: bold;
   font-family: "Anonymous Pro", monospace;
   letter-spacing: 7px;
@@ -163,7 +167,8 @@ img {
 
 @media (max-width:768px) {
   body{
-    background-color: #100E1D;
+    height: 100%; 
+    width: 100%;
   }
   .container {
     font-family: "Raleway", sans-serif;
@@ -176,13 +181,13 @@ img {
   }
   .box {
     font-family: "Raleway", sans-serif;
-    background-color: #1e213a;
-    border-radius: 20px;
-    color: #8480a0;
+    background-color: #0f0f28e0;
+    padding: 10px;
+    border-radius: 30px;
+    color: #400b7c;
     display: flex;
     justify-content: center;
-    align-items: center;
-    font-size: 15px;
+    font-size: 20px;
   }
   
   
@@ -192,7 +197,7 @@ img {
 
 @media (min-width:1024px) {
   body{
-    background-color: #100E1D;
+    /* background-color: #100E1D; */
   }
   .container {
     font-family: "Raleway", sans-serif;
@@ -207,12 +212,11 @@ img {
   
   .box {
     font-family: "Raleway", sans-serif;
-    background-color: #1e213a;
+    background-color: #0f0f28e0;
     padding: 10px;
-    border-radius: 20px;
-    color: #8480a0;
+    border-radius: 30px;
+    color: #400b7c;
     display: flex;
-  
     justify-content: center;
     font-size: 20px;
   }
@@ -221,9 +225,13 @@ img {
 }
 
 @media (max-width:1440px) {
+
   
 .container {
+  /* font-family: "Raleway", sans-serif; */
   font-family: "Raleway", sans-serif;
+  width: 250px;
+  height: 250px;
   display: grid;
   grid-template-columns: repeat(2, 300px);
   grid-row: auto auto;
@@ -233,10 +241,10 @@ img {
 
 .box {
   font-family: "Raleway", sans-serif;
-  background-color: #1e213a;
+  background-color: #0f0f28e0;
   padding: 10px;
   border-radius: 30px;
-  color: #8480a0;
+  color: #400b7c;
   display: flex;
   justify-content: center;
   font-size: 20px;

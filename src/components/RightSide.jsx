@@ -52,7 +52,7 @@ function LeftBelow({ weather: {
 
   return (
     <>
-      <section className=' w-screen  h-screen bg-[#100E1D]'>
+      <section className=' w-screen  h-screen '>
         <div className=' celFer flex gap-3 justify-end  '>
           <button
             type=""
@@ -87,7 +87,7 @@ function LeftBelow({ weather: {
           }
         </div>
         <div>
-          <h1 className='text-2xl text-[#9986a6] h1 p-2 ml-10 italic'>Today's HighLights...</h1>
+          <h1 className='text-2xl  h1 p-2 ml-10 italic'>Today's HighLights...</h1>
         </div>
         <div className=' gap-3 ml-[100px]  md:mt-[85px] utils '>
           <div className='container mt-0'>
